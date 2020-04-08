@@ -1,2 +1,3 @@
 name: Ida Delphine, A girl that codes
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
