@@ -32,29 +32,122 @@ Some popular version control systems are:
 
 * **Git:**  This is an opensource distributed version control system for tracking changes in source code during software development. 'Distributed' in the sense that everyone working on a project using it has a local copy.
 
+  *Features*
+    * Provides strong support for non-linear development.
+    * Distributed repository model.
+    * Compatible with existing systems and protocols like HTTP, FTP, ssh.
+    * Capable of efficiently handling small to large sized projects.
+    * Cryptographic authentication of history.
+    * Pluggable merge strategies.
+    * Toolkit-based design.
+    * Periodic explicit object packing.
+    * Garbage accumulates until collected.
+
   * *Pros:*
-    * Branches are easy to merge.
-    * Addons can be written in many languages.
-    * Offline use.
+    * Super-fast and efficient performance.
+    * Cross-platform
+    * Code changes can be very easily and clearly tracked.
+    * Easily maintainable and robust.
+    * Offers an amazing command line utility known as git bash.
+    * Also offers GIT GUI where you can very quickly re-scan, state change, sign off, commit & push the code quickly with just a few clicks.
   * *Cons:*
-    * Does not support 'commits' across multiple branches or tags.
+    * Complex and bigger history log become difficult to understand.
+    * Does not support keyword expansion and timestamp preservation.
     
 * **Apache Subversion (SVN):** This is an opensource centralised version control system characterised by reliability as a safe haven.
 
+  *Features*
+    * Client-server repository model. However, SVK permits SVN to have distributed branches.
+    * Directories are versioned.
+    * Copying, deleting, moving and renaming operations are also versioned.
+    * Supports atomic commits.
+    * Versioned symbolic links.
+    * Free-form versioned metadata.
+    * Space efficient binary diff storage.
+    * Branching is not dependent upon the file size and this is a cheap operation.
+    * Other features – merge tracking, full MIME support, path-based authorization, file locking, standalone server operation.
+
   * *Pros:*
-    * Easy to use.
+    * Has a benefit of good GUI tools like TortoiseSVN.
+    * Supports empty directories.
+    * Have better windows support as compared to Git.
+    * Easy to set up and administer.
+    * Integrates well with Windows, leading IDE and Agile tools.
   * *Cons:*
-    * Must work online
+    * Does not store the modification time of files.
+    * Does not deal well with filename normalization.
+    * Does not support signed revisions.
 
-* **Mercurial:** This is another opensource distributes version control system like Git. But it was designed for larger projects, mostly outside the scope of designers and independent web developers.
+* **Mercurial:** This is another open-source distributed version control system like Git. But it was designed for larger projects, mostly outside the scope of designers and independent web developers. The operating systems that it supports are Unix-like, Windows and macOS.
+
+  *Features*
+    * High performance and scalability.
+    * Advanced branching and merging capabilities.
+    * Fully distributed collaborative development.
+    * Decentralized
+    * Handles both plain text and binary files robustly.
+    * Possesses an integrated web interface.
 
   * *Pros:*
-    * Easy to learn.
-    * Web server built in.
+    * Fast and powerful
+    * Easy to learn
+    * Lightweight and portable.
+    * Conceptually simple
   * *Cons:*
-    * Addons must be written in Python.
+    * All the add-ons must be written in Python.
+    * Partial checkouts are not allowed.
+    * Quite problematic when used with additional extensions..
+    
+* **CVS:** It is yet another most popular revision control system. CVS has been the tool of choice for a long time.
+  
+  *Features*
+    * Client-server repository model.
+    * Multiple developers might work on the same project parallelly.
+    * CVS client will keep the working copy of the file up-to-date and requires manual intervention only when an edit conflict occurs
+    * Keeps a historical snapshot of the project.
+    * Anonymous read access.
+    * ‘Update’ command to keep local copies up to date.
+    * Can uphold different branches of a project.
+    * Excludes symbolic links to avoid a security risk.
+    * Uses delta compression technique for efficient storage.
+  
+  * *Pros:*
+    * Excellent cross-platform support.
+    * Robust and fully-featured command-line client permits powerful scripting
+    * Helpful support from vast CVS community
+    * Allows good web browsing of the source code repository
+    * It’s a very old, well known & understood tool.
+    * Suits the collaborative nature of the open-source world splendidly.
+    
+  * *Cons:*
+    * No integrity checking for source code repository.
+    * Does not support atomic check-outs and commits.
+    * Poor support for distributed source control.
+    * Does not support signed revisions and merge tracking.
+    
+ *  **Monotone:** Monotone, written in C++, is a tool for distributed revision control. The OS that it supports includes Unix, Linux, BSD, Mac OS X, and Windows.
+ 
+    *Features*
+      * Provides good support for internationalization and localization.
+      * Focuses on integrity over performance.
+      * Intended for distributed operations.
+      * Employs cryptographic primitives to track file revisions and authentications.
+      * Can import CVS projects.
+      * Uses a very efficient and robust custom protocol called netsync.
+      
+     * *Pros:*
+        * Requires very low maintenance
+        * Good documentation
+        * Easy to learn
+        * Portable design
+        * Works great with branching and merging
+        * Stable GUI
+        
+     * *Cons:*
+        * Performance issues observed for some operations, most visible was an initial pull.
+        * Can’t commit or checkout from behind the proxy (this is because of a non-HTTP protocol).
 
-*Other examples include Bazaar, Monotone.*
+*Other examples include Bazaar, TFS, VSTS.*
 
 I hope you now understand what version control is all about and why it shhould be part and parcel of your life. Hope you find this comprehensive.
 Thanks for reading! :)
