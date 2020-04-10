@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "My Small Guide About VERSION CONTROL"
-date:   2020-04-10
-
+title: "My Small Guide About VERSION CONTROL"
+date: 2020-04-10
+---
 
 ## What is version control?
 'Version Control' is a term I have come across a lot as a developer(*Not fully one yet :)*). 
