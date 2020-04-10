@@ -149,5 +149,5 @@ Some popular version control systems are:
 
 *Other examples include Bazaar, TFS, VSTS.*
 
-I hope you now understand what version control is all about and why it shhould be part and parcel of your life. Hope you find this comprehensive.
+I hope you now understand what version control is all about and why it should be part and parcel of your life. Hope you find this comprehensive.
 Thanks for reading! :)
