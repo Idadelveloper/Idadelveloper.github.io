@@ -23,6 +23,11 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h2 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-left: auto;
+    margin-right: auto;
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -47,5 +52,5 @@ ul.posts li {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    wideth: 50%;
+    width: 50%;
 }
