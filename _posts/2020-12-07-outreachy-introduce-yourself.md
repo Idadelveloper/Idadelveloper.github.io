@@ -45,7 +45,6 @@ I realized how amazing and welcoming the community was and with how far I alread
 
 Good for me all my hard work paid off. On November 23th I received an email about being accepted for the internship. It was almost like a dream. If you’re reading this post and you feel like you’re not good enough to make open source contributions or you’re not good enough for anything in general, cancel that mentality. You have to start from somewhere. Even if you apply and don’t get the internship, try again next time. Bear in mind the most difficult part is the contribution period where you have to be chosen among other aspiring interns. Give it your all, make a bunch of quality contributions and have the community spirit.
 
-![Outreachy acceptance email](/assets/images/outreachy_email.jpeg "Outreachyacceptance email Pic"){: .center-image }
 
 
 In general, I’m enjoying my outreachy experience and I particularly encourage people who think they’re beginners or not good enough to apply. You’ll learn a lot trust me :)
