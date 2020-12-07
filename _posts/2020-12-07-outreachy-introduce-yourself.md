@@ -4,10 +4,12 @@ title: "Outreachy - Introduce Yourself"
 date: 2020-12-07
 ---
 
-# A Little About Me!{: h1 }
+# A Little About Me!
+Hello, I’m Ida Delphine and currently a 20 year old computer engineering student based in Cameroon.
+
 ![Ida Delphine's Picture](/assets/images/idadel.jpg "Ida's Pic"){: .center-image }
 
-Hello, I’m Ida Delphine and currently a 20 year old computer engineering student based in Cameroon. I fell in love with coding about a year ago after I wrote my first Python code. Back then, I was in a med school doing pharmacy technology and after my first coding experience, I didn’t even think twice about dropping out from med school. It was not an easy decision but I must say, completely changing my career path to technology has been my best decision so far. A year later after my transition to tech, I got the outreachy internship which is my main reason for this intro.
+I fell in love with coding about a year ago after I wrote my first Python code. Back then, I was in a med school doing pharmacy technology and after my first coding experience, I didn’t even think twice about dropping out from med school. It was not an easy decision but I must say, completely changing my career path to technology has been my best decision so far. A year later after my transition to tech, I got the outreachy internship which is my main reason for this intro.
 
 
 ![Yocto Project Logo](/assets/images/yocto.png "Yocto's Pic"){: .center-image }
@@ -16,7 +18,7 @@ Regarding the outreachy internship my project is to *Enhance the Yocto Project�
 
 Oh! Two more things...I love Python and chocolate.
 
-# My Core Values!{: h1 }
+# My Core Values!
 My top three core values are compency, honesty and respect. Here's why:
 
 1. **Competency**: It has always been my thing to do stuff efficiently. I wouldn’t call myself a perfectionist but whatever work I need to get done, I make sure I do my absolute best. I don’t think I would have made it to being an outreachy intern if I wasn’t competent.
@@ -25,7 +27,7 @@ My top three core values are compency, honesty and respect. Here's why:
 
 3. **Respect**: This is one of my core values because it determines how any relationship will look like. Honestly, I can’t work or be be in a setting where I am not respected. I believe people should show regard for the feelings, ideas, rights, etc of others. Nobody deserves to be disrespected or feel disrespected for no good reason. 
 
-# My Application Motivation and Journey!{: h1 }
+# My Application Motivation and Journey!
 ![Outreachy](/assets/images/outreachyy.png "Outreachy's Pic"){: .center-image }
 
 I knew about [Outreachy](https://www.outreachy.org/) about a year ago but I always thought that I am not good enough for this amazing opportunity considering the fact that I transitioned to tech just a year ago. With time I learned about open source development and it was then I knew  I was born for this. I wouldn't know up to half the stuff I know about tech if not for some amazing open source contributors and enthusiasts.
