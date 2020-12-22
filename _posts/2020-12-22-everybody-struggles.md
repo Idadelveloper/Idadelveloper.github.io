@@ -4,7 +4,6 @@ title: "Everybody Struggles"
 date: 2020-12-22
 ---
 
-# Everybody Struggles!
 
 ![Woman Struggling](/assets/images/struggle.jpeg "Struggle pic"){: .center-image }
 
