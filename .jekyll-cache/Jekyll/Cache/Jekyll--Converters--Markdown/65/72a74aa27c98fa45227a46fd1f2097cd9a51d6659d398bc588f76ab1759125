@@ -1,0 +1,207 @@
+I"�2<h1 id="what-is-version-control">What is Version Control?</h1>
+<p><strong>‘Version Control’</strong> is a term I have come across a lot as a developer(<em>Not fully one yet :)</em>). 
+I got confused a lot about what it actually meant but as time went by I eventually got a hang of what it is definitely all about. Well <em>‘version control’</em> is simply a management system that tracks the changes made in a project. These changes can be adding a new file to your project, deleting some content in a file, removing some files, modifying a file or files. Basically, what version control does is anytime you make a change it kind of creates a snapshot of your work. This ‘snapshot’ is the state of your file at that time which is termed a <strong>‘version’</strong>. Version control records the kind of changes being made, the time the changes were made and even who made the change. Pretty cool right? ;)</p>
+
+<h1 id="how-useful-version-control-is-to-the-novice-and-professional-developers">How Useful Version Control Is To The Novice And Professional Developers</h1>
+<p>Whether a novice or a professional developer, having a version control system is extremely handy and worth the time of learning how exactly it works. Here is how useful it is;</p>
+
+<ol>
+  <li>
+    <h2 id="team-work"><strong>Team work:</strong></h2>
+    <p>Just imagine developers working individually on same project without knowing what changes were made by their colleagues. A lot of conflicts will emerge when everyone comes together to intergrate their projects which obviously will be time consuming to rectify. But with version control you do not have to worry much about conflicts since it provides developers with a shared workspace to work simultaneously on a given project and notify everyone on who has made what changes. How cool is that?</p>
+  </li>
+  <li>
+    <h2 id="storage"><strong>Storage:</strong></h2>
+    <p>Now let’s picture a world without version control and you have this cool website to build. You are bound to be saving your work just in case you mess things up. But here’s where confusion sets in. Will you save the entire project or save just the changes you made? If you save only the changes you will find it difficult to view the progress you made at a particular time. Meanwhile if you save the entire project at a given time there will be a huge amount of unnecessary and redundant data laying around since you are basically saving thesame thing hence covering up unnecesarry space. 
+   It doesn’t only end there. You start thinking of how to name these various versions of what you are saving. Let’s say you are very organized and able to come up with a very comprehensive naming scheme but as time goes by your project increases and you may lose track of those names. We do not want to worry about whether we saved the last version of our site as ‘mycoolwebsite15’ or ‘mycoolwebsite16’. We should instead worry if the the design of the site is responsive irrespective of the device being used or not. This is where version control comes in to save you all the stress about storage. And trust me it doesn’t only store several versions of your project but stores it better than you ten fold. The version control knows there’s only one project and all the changes made are recorded in the version control system(VCS).</p>
+  </li>
+  <li>
+    <h2 id="recovery"><strong>Recovery:</strong></h2>
+    <p>Back to your cool site let’s say you got busy and hired this guy to finish building your site. After a few days you came back to see how far the site has gone. Oh no! The site’s messed up. The colors are just off and some buttons are not working. Turns out this guy lied on his resume about being a web developer. And the deadline to have the site done is the next day. You just fired him but still you have an unfinished site to build. Without version control it will be quite stressful and time consuming for you to go back and start checking on where he messed things up. It might be such a mess that you’d rather just start over. But with version control, you can easily roll back to previous version of your cool site before he messed things up. Next time just don’t hire someone that incompetent! The point is version control provides access to historical versions of your project in case you made a mistake.</p>
+  </li>
+  <li>
+    <h2 id="backup"><strong>Backup:</strong></h2>
+    <p>Your project files are stored in a central server and every developer has a local copy of all the files present in the central server inside their thier local machine. Any time you start coding, it fetches your project files from the central server and after you are done working it transfers all the files back into the central server therefore at every time you always have a local copy of your project in your local machine. So incase your central server crashes, a backup is always available in your local server. Having version control is a very reliable tool because you always have backup.</p>
+  </li>
+  <li>
+    <h2 id="analyse-your-project"><strong>Analyse your project:</strong></h2>
+    <p>When you change a version, version control provides you with proper description of what exactly changed and when it was changed so that you can analyse how your project evolved.</p>
+  </li>
+</ol>
+
+<h1 id="examples-of-version-control-systems">Examples of Version Control Systems</h1>
+<p>Some popular version control systems are:</p>
+
+<ul>
+  <li>
+    <p><strong>Git:</strong>  This is an opensource distributed version control system for tracking changes in source code during software development. ‘Distributed’ in the sense that everyone working on a project using it has a local copy.</p>
+
+    <p><em>Features</em></p>
+    <ul>
+      <li>Provides strong support for non-linear development.</li>
+      <li>Distributed repository model.</li>
+      <li>Compatible with existing systems and protocols like HTTP, FTP, ssh.</li>
+      <li>Capable of efficiently handling small to large sized projects.</li>
+      <li>Cryptographic authentication of history.</li>
+      <li>Pluggable merge strategies.</li>
+      <li>Toolkit-based design.</li>
+      <li>Periodic explicit object packing.</li>
+      <li>
+        <p>Garbage accumulates until collected.</p>
+      </li>
+      <li><em>Pros:</em>
+        <ul>
+          <li>Super-fast and efficient performance.</li>
+          <li>Cross-platform</li>
+          <li>Code changes can be very easily and clearly tracked.</li>
+          <li>Easily maintainable and robust.</li>
+          <li>Offers an amazing command line utility known as git bash.</li>
+          <li>Also offers GIT GUI where you can very quickly re-scan, state change, sign off, commit &amp; push the code quickly with just a few clicks.</li>
+        </ul>
+      </li>
+      <li><em>Cons:</em>
+        <ul>
+          <li>Complex and bigger history log become difficult to understand.</li>
+          <li>Does not support keyword expansion and timestamp preservation.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Apache Subversion (SVN):</strong> This is an opensource centralised version control system characterised by reliability as a safe haven.</p>
+
+    <p><em>Features</em></p>
+    <ul>
+      <li>Client-server repository model. However, SVK permits SVN to have distributed branches.</li>
+      <li>Directories are versioned.</li>
+      <li>Copying, deleting, moving and renaming operations are also versioned.</li>
+      <li>Supports atomic commits.</li>
+      <li>Versioned symbolic links.</li>
+      <li>Free-form versioned metadata.</li>
+      <li>Space efficient binary diff storage.</li>
+      <li>Branching is not dependent upon the file size and this is a cheap operation.</li>
+      <li>
+        <p>Other features – merge tracking, full MIME support, path-based authorization, file locking, standalone server operation.</p>
+      </li>
+      <li><em>Pros:</em>
+        <ul>
+          <li>Has a benefit of good GUI tools like TortoiseSVN.</li>
+          <li>Supports empty directories.</li>
+          <li>Have better windows support as compared to Git.</li>
+          <li>Easy to set up and administer.</li>
+          <li>Integrates well with Windows, leading IDE and Agile tools.</li>
+        </ul>
+      </li>
+      <li><em>Cons:</em>
+        <ul>
+          <li>Does not store the modification time of files.</li>
+          <li>Does not deal well with filename normalization.</li>
+          <li>Does not support signed revisions.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Mercurial:</strong> This is another open-source distributed version control system like Git. But it was designed for larger projects, mostly outside the scope of designers and independent web developers. The operating systems that it supports are Unix-like, Windows and macOS.</p>
+
+    <p><em>Features</em></p>
+    <ul>
+      <li>High performance and scalability.</li>
+      <li>Advanced branching and merging capabilities.</li>
+      <li>Fully distributed collaborative development.</li>
+      <li>Decentralized</li>
+      <li>Handles both plain text and binary files robustly.</li>
+      <li>
+        <p>Possesses an integrated web interface.</p>
+      </li>
+      <li><em>Pros:</em>
+        <ul>
+          <li>Fast and powerful</li>
+          <li>Easy to learn</li>
+          <li>Lightweight and portable.</li>
+          <li>Conceptually simple</li>
+        </ul>
+      </li>
+      <li><em>Cons:</em>
+        <ul>
+          <li>All the add-ons must be written in Python.</li>
+          <li>Partial checkouts are not allowed.</li>
+          <li>Quite problematic when used with additional extensions..</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>CVS:</strong> It is yet another most popular revision control system. CVS has been the tool of choice for a long time.</p>
+
+    <p><em>Features</em></p>
+    <ul>
+      <li>Client-server repository model.</li>
+      <li>Multiple developers might work on the same project parallelly.</li>
+      <li>CVS client will keep the working copy of the file up-to-date and requires manual intervention only when an edit conflict occurs</li>
+      <li>Keeps a historical snapshot of the project.</li>
+      <li>Anonymous read access.</li>
+      <li>‘Update’ command to keep local copies up to date.</li>
+      <li>Can uphold different branches of a project.</li>
+      <li>Excludes symbolic links to avoid a security risk.</li>
+      <li>
+        <p>Uses delta compression technique for efficient storage.</p>
+      </li>
+      <li><em>Pros:</em>
+        <ul>
+          <li>Excellent cross-platform support.</li>
+          <li>Robust and fully-featured command-line client permits powerful scripting</li>
+          <li>Helpful support from vast CVS community</li>
+          <li>Allows good web browsing of the source code repository</li>
+          <li>It’s a very old, well known &amp; understood tool.</li>
+          <li>Suits the collaborative nature of the open-source world splendidly.</li>
+        </ul>
+      </li>
+      <li><em>Cons:</em>
+        <ul>
+          <li>No integrity checking for source code repository.</li>
+          <li>Does not support atomic check-outs and commits.</li>
+          <li>Poor support for distributed source control.</li>
+          <li>Does not support signed revisions and merge tracking.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>Monotone:</strong> Monotone, written in C++, is a tool for distributed revision control. The OS that it supports includes Unix, Linux, BSD, Mac OS X, and Windows.</p>
+
+    <p><em>Features</em></p>
+    <ul>
+      <li>Provides good support for internationalization and localization.</li>
+      <li>Focuses on integrity over performance.</li>
+      <li>Intended for distributed operations.</li>
+      <li>Employs cryptographic primitives to track file revisions and authentications.</li>
+      <li>Can import CVS projects.</li>
+      <li>
+        <p>Uses a very efficient and robust custom protocol called netsync.</p>
+      </li>
+      <li><em>Pros:</em>
+        <ul>
+          <li>Requires very low maintenance</li>
+          <li>Good documentation</li>
+          <li>Easy to learn</li>
+          <li>Portable design</li>
+          <li>Works great with branching and merging</li>
+          <li>Stable GUI</li>
+        </ul>
+      </li>
+      <li><em>Cons:</em>
+        <ul>
+          <li>Performance issues observed for some operations, most visible was an initial pull.</li>
+          <li>Can’t commit or checkout from behind the proxy (this is because of a non-HTTP protocol).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><em>Other examples include Bazaar, TFS, VSTS.</em></p>
+
+<p>I hope you now understand what version control is all about and why it should be part and parcel of your life. Hope you find this comprehensive.
+Thanks for reading! :)</p>
+:ET

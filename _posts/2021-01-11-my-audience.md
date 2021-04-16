@@ -2,6 +2,7 @@
 layout: post
 title: "What Is The Yocto Project?"
 date: 2021-01-11
+image: /assets/images/career.jpeg
 ---
 
 ![Yocto Project Logo](/assets/images/yocto.png "Yocto's Pic"){: .center-image }

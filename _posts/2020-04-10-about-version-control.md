@@ -2,6 +2,7 @@
 layout: post
 title: "My Small Guide About VERSION CONTROL"
 date: 2020-04-10
+image: /assets/images/outreachyy.png
 ---
 
 # What is Version Control?

@@ -2,6 +2,7 @@
 layout: post
 title: "Everybody Struggles"
 date: 2020-12-22
+image: /assets/images/career.jpeg
 ---
 
 

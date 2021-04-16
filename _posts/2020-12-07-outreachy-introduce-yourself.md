@@ -2,6 +2,7 @@
 layout: post
 title: "Outreachy - Introduce Yourself"
 date: 2020-12-07
+image: /assets/images/outreachy.png
 ---
 
 # Who am I?

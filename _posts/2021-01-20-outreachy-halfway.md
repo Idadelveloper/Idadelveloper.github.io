@@ -2,6 +2,7 @@
 layout: post
 title: "Halfway Through Outreachy"
 date: 2021-01-20
+image: /assets/images/struggle.jpeg
 ---
 
 ![Yocto Project Logo](/assets/images/yocto.png "Yocto's Pic"){: .center-image }
