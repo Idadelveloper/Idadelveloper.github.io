@@ -2,6 +2,7 @@
 layout: post
 title: "Career Goals"
 date: 2021-02-11
+image: /assets/images/yocto.png
 ---
 
 ![Career Picture](/assets/images/career.jpeg "Career Pic"){: .center-image }

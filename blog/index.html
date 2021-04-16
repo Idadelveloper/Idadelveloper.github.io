@@ -1,11 +1,20 @@
+--- 
+layout: default 
 ---
-layout: default
-title: Ida Delphine's Blog
----
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
-
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<div class="container">
+    <h1>{{ page.title }}</h1>
+    <div class="posts row">
+        {% for post in site.posts %}
+            <div class="card col-4 mx-3 my-4" style="width: 18rem;">
+                <img class="card-img-top" src="{{post.image}}" alt="blog image">
+                <div class="card-body">
+                    <h5 class="card-text text-center text-uppercase">{{ post.title }}</h5>
+                    <small>{{ post.date | date_to_string }}</small>
+                </div>
+                <div class="card-footer">
+                    <p><a class="btn btn-dark" href="{{ post.url }}" title="{{ post.title }}">Read Me</a></p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
