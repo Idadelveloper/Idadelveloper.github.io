@@ -3,9 +3,12 @@ layout: post
 title: "Halfway Through Outreachy"
 date: 2021-01-20
 image: /assets/images/struggle.jpeg
+category: "Internship"
 ---
 
-![Yocto Project Logo](/assets/images/yocto.png "Yocto's Pic"){: .center-image }
+<div class="text-center">
+  <img src="/assets/images/yocto.png" class="rounded w-50" alt="Yocto's pic">
+</div>
 
 
 Welcome once more to my blog! Once again, I’m interning for the Yocto Project and my project is “Enhancing the Yocto Project’s license tracing”. If you just heard about the Yocto Project and are a little curious, you can read about it [here](https://idadelveloper.github.io/blog/2021/01/11/my-audience). This is my 8th week of this internship and honestly, it’s been 8 weeks of learning and frustration.

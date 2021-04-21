@@ -3,10 +3,14 @@ layout: post
 title: "Everybody Struggles"
 date: 2020-12-22
 image: /assets/images/career.jpeg
+category: "Career"
 ---
 
 
-![Woman Struggling](/assets/images/struggle.jpeg "Struggle pic"){: .center-image }
+<div class="text-center">
+  <img src="/assets/images/struggle.jpeg" class="rounded w-50" alt="Struggle woman pic">
+</div>
+
 
 I quite remember how happy and excited I was on November 23rd when I got the internship. It was almost like a dream. Little did I know the struggles and frustrations that await me. 
 

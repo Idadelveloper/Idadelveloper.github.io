@@ -3,16 +3,21 @@ layout: post
 title: "Outreachy - Introduce Yourself"
 date: 2020-12-07
 image: /assets/images/outreachy.png
+category: "Personal"
 ---
 
 # Who am I?
 Hello! My name is Ida Delphine, but my friends call me Idadel. I'm currently a 20-year-old open source enthusiast based in Bamenda, Cameroon.
 
-![Ida Delphine's Picture](/assets/images/idadel.jpg "Ida's Pic"){: .center-image }
+<div class="text-center">
+  <img src="/assets/images/idadel.jpg" class="rounded w-50" alt="Ida's pic">
+</div>
 
 I fell in love with coding about a year ago after writing my first Python program. Back then, I was in a medical school doing pharmacy technology. After my first coding experience, I didn’t even think twice about dropping out of med school. It wasn't an easy decision, but I must say, completely changing my career path to technology has been my best decision so far.
 
-![Yocto Project Logo](/assets/images/yocto.png "Yocto's Pic"){: .center-image }
+<div class="text-center">
+  <img src="/assets/images/yocto.png" class="rounded w-50" alt="Yocto's pic">
+</div>
 
 It's been a year since I transitioned to tech, and my greatest achievement has been getting the Outreachy Internship. My Outreachy internship project is to Enhance the Yocto Project’s license tracing. I'm proud to have [*Paul Eggleton*](https://github.com/bluelightning) and [*Tim Orling*](https://twitter.com/moto_timo) as my mentors.
 
@@ -30,7 +35,10 @@ I value a lot of things. If I were to pick my top three core values, they will b
 
 
 # My Application Motivation and Journey!
-![Outreachy](/assets/images/outreachyy.png "Outreachy's Pic"){: .center-image }
+
+<div class="text-center">
+  <img src="/assets/images/outreachyy.png" class="rounded w-50" alt="Outreachy's pic">
+</div>
 
 I knew about [Outreachy](https://www.outreachy.org/) about a year ago but I always thought that I am not good enough for this amazing opportunity because I transitioned to tech just a year ago. With time I learned about open source development and it was then I knew  I was born for this. I wouldn't know up to half the stuff I know about tech if not for some amazing open source contributors and enthusiasts.
 
@@ -47,8 +55,9 @@ I realized how amazing and welcoming the community was and with how far I alread
 Good for me all my hard work paid off. On November 23rd I received an email about being accepted for the internship. It was almost like a dream. If you’re reading this post and you feel like you’re not good enough to make open source contributions or you’re not good enough for anything in general, cancel that mentality. You have to start somewhere. Even if you apply and don’t get the internship, try again next time. Bear in mind the most difficult part is the contribution period where you have to be chosen among other aspiring interns. Give it your all, make a bunch of quality contributions, and have the community spirit.
 
 
-![Outreachy acceptance email](/assets/images/outreachy_email.jpeg "Outreachyacceptance email Pic"){: .center-image }
-
+<div class="text-center">
+  <img src="/assets/images/outreachy_email.jpeg" class="rounded w-50" alt="Outreachy accptance email pic">
+</div>
 
 
 In general, I’m enjoying my Outreachy experience and I particularly encourage people who think they’re beginners or not good enough to apply. You’ll learn a lot trust me :)

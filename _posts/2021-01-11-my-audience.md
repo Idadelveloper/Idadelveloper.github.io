@@ -3,9 +3,12 @@ layout: post
 title: "What Is The Yocto Project?"
 date: 2021-01-11
 image: /assets/images/career.jpeg
+category: "Internship"
 ---
 
-![Yocto Project Logo](/assets/images/yocto.png "Yocto's Pic"){: .center-image }
+<div class="text-center">
+  <img src="/assets/images/yocto.png" class="rounded w-50" alt="Yocto's pic">
+</div>
 
 The [Yocto Project](https://www.yoctoproject.org/) is an open-source collaboration project that helps developers create custom Linux-based systems for embedded products, regardless of the hardware architecture. It provides a flexible set of tools and space where embedded developers worldwide can share technologies, software stacks, configurations, and best practices to create tailored Linux images for embedded and Internet of Things (IoT) devices. Ok, I know this sounds a little complicated. Let me simplify it.
 

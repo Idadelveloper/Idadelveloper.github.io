@@ -1,20 +1,58 @@
 --- 
-layout: default 
+layout: blog
 ---
-<div class="container">
-    <h1>{{ page.title }}</h1>
-    <div class="posts row">
-        {% for post in site.posts %}
-            <div class="card col-4 mx-3 my-4" style="width: 18rem;">
-                <img class="card-img-top" src="{{post.image}}" alt="blog image">
-                <div class="card-body">
-                    <h5 class="card-text text-center text-uppercase">{{ post.title }}</h5>
-                    <small>{{ post.date | date_to_string }}</small>
-                </div>
-                <div class="card-footer">
-                    <p><a class="btn btn-dark" href="{{ post.url }}" title="{{ post.title }}">Read Me</a></p>
+<section id="blog" class="blog-mf sect-pt4 route">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h3 class="title-a">
+                    Blog
+                    </h3>
+                    <p class="subtitle-a">
+                        Read about my interests and what I've been up to...
+                    </p>
+                    <div class="line-mf"></div>
                 </div>
             </div>
-        {% endfor %}
-    </div>
-</div>
+        </div>
+            <div class="row">
+                {% for post in site.posts %}
+
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                           <!-- <div class="card-img w-50">
+                                <a href="{{ post.url }}">
+                                    <img src="{{post.image}}" alt="" class="card-img-top ">
+                                </a>
+                            </div>-->
+                            <div class="card-body">
+                                <h3 class="card-title font-weight-bold">
+                                    <a href="{{ post.url }}">{{ post.title }}</a>
+                                </h3>
+
+                                <p class="card-description postContent">
+                                    <p>{{ post.content | truncatewords: 28, "..." | strip_html }}</p>
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="post-author">
+                                    <a href="https://github.com/Idadelveloper">
+                                        <img src="https://avatars.githubusercontent.com/u/56026636?v=4}" alt="" class="avatar rounded-circle">
+                                        <span class="author">Ida Delphine</span>
+                                    </a>
+                                </div>
+                                <div class="post-date">
+                                    <div class="text-muted">
+                                        <small class="p-1 rounded">{{post.category}}</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                {% endfor %}
+            </div>
+        </div>
+   </section>
+<!-- ======= Blog Section ======= -->
+       

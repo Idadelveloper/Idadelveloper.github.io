@@ -3,9 +3,12 @@ layout: post
 title: "Career Goals"
 date: 2021-02-11
 image: /assets/images/yocto.png
+category: "Internship"
 ---
 
-![Career Picture](/assets/images/career.jpeg "Career Pic"){: .center-image }
+<div class="text-center">
+  <img src="/assets/images/career.jpeg" class="rounded w-50" alt="Career pic">
+</div>
 
 
 Before getting the Outreachy internship, I always knew in the future I will love to become a very skilled software engineer and with Python being my first and favorite programming language, I regularly create time to write some Python code. The thing is I wasn’t very sure about what kind of software engineer I wanted to be. I was still very confused and started looking into data science which I found interesting how much information one can get by just simply manipulating data. By the way, I still love data science and it is so much fun visualizing data. To me, that’s the best part of it.
