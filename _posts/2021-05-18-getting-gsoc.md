@@ -11,12 +11,14 @@ category: "Internship"
 </div>
 
 
+
 So it was the evening of May 17th, 2021. I was expecting the GSoC results on that day but they came earlier than I expected. I was going through my email and then I saw a message from Google Summer of Code. Onsight of it I got the jitters. I already knew I will get it though. But there’s this joyous feeling that comes at the sight of an acceptance email. And there it was – “Hi Ida Delphine, your proposal Code Formatting and Style Check for RTEMS SuperCore has been accepted! Welcome to GSoC 2021!”
 
 
 <div class="text-center">
   <img src="/assets/images/gsoc-accept.png" class="rounded w-50" alt="GSoC acceptance email">
 </div>
+
 
 
 # So what is GSoC?
