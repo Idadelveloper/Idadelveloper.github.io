@@ -35,7 +35,7 @@ p a {
     transition: all 0.5s ease-in-out;
 }
 
-p ul li a {
+ul li a {
     color: #E63E6D;
     font-weight: bold;
     transition: all 0.5s ease-in-out;
