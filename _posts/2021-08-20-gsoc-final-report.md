@@ -36,7 +36,7 @@ This project will improve the situation and work towards automatic style and for
 I spent time understanding how RTEMS works and what it is all about. I tried building RTEMS and creating my first hello world application. Immediately after, I started working on the pre-commit hook script which checks for style issues before successfully creating a commit.
 #### Code submitted
 * Add RTEMS clang-format configuation: [here](https://github.com/Idadelveloper/rtems/commit/cff8ff75b1a4d2f9ee708c0adbf5f215ae0c9e6b)
-* Pre-commit hook to check for style differences before commiting: [here](https://github.com/Idadelveloper/rtems/blob/master/hooks/pre-commit)
+* Pre-commit hook to check for style differences before commiting: [here](https://github.com/Idadelveloper/rtems/commit/8e0e432292b9d9f237b5aa1b3b367d34fbc7cead)
 * Added git diff to rtems-tools/rtemstoolkit/git.py: [here](https://github.com/Idadelveloper/rtems-tools/commit/d20d04deba83aa9ca6778959b7f94eb399de3651)
 
 
@@ -53,10 +53,16 @@ I started working on the standalone tool in rtems-tools.git that can be used to 
 
 
 ### TODOS
-* Update the rtems-style code.
-* Write documentation for rtems-style.
-* Update the pre-commit hook script  be compatible with other hosts like Windows and FreeBSD.
-
+* Update the rtems-style code in case of errors/exclusions after more testing. This is a new feature so there might be some uncaught errors.
+* Write documentation for rtems-style. It should contain:
+  * The system requirements to run the tool.
+  * It's features
+  * Detail explanation of how to use the tool.
+  * Examples
+* The pre-coomit hook script needs to be updated in:
+  * Making it compatible with other hosts like FreeBSD and Windows by using `clang-format` instead of `clang-format-diff` in the code. It should also be able to detect the version of `clang-format` in the system since in FreeBSD, a version number must be attached to `clang-format`.
+  * Get rid of the use the external Python module `GitPython` but rather, use the built-in `configparser` module.
+  * Not hard code the directories or files to be ignored by the script.
 
 ### What I learned
 * Firstly, I learned about RTEMS and how it is used
