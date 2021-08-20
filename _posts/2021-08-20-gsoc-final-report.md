@@ -41,9 +41,9 @@ I spent time understanding how RTEMS works and what it is all about. I tried bui
 
 
 ### Second Half
-I started working on the standalone tool in rtems-tools.git that can be used to check for style issues in rtems.git. The pre-commit hook script I initially wrote made things a lot easier for me since I just borrowed some of its functionalities. I tried building LLVM using the RSB but it failed because it was not updated so I ended up building it from source. To see this tool in action, the `rtems-style` command is used. I uses 5 flags:
-* `-c`, `--check` : Checks for style issues and prints out a report
-* `-r`, `--reformat` : reformate code in a given file or directory
+I started working on the standalone tool in rtems-tools.git that can be used to check for style issues in rtems.git. The pre-commit hook script I initially wrote made things a lot easier for me since I just borrowed some of its functionalities. I tried building LLVM using the RSB but it failed because it was not updated so I ended up building it from source. To see this tool in action, the `rtems-style` command is used. It uses 5 flags:
+* `-c`, `--check` : checks for style issues and prints out a report
+* `-r`, `--reformat` : reformats code in a given file or directory
 *  `-p`, `--path` : path in which to check or reformat code
 *  `-v`, `--verbose` : prints output during style checking but in more detail
 *  `-i`, `--ignore` : file(s) to be ignoed when checking for style issues
