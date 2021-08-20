@@ -42,11 +42,11 @@ I spent time understanding how RTEMS works and what it is all about. I tried bui
 
 ### Second Half
 I started working on the standalone tool in rtems-tools.git that can be used to check for style issues in rtems.git. The pre-commit hook script I initially wrote made things a lot easier for me since I just borrowed some of its functionalities. I tried building LLVM using the RSB but it failed because it was not updated so I ended up building it from source. To see this tool in action, the `rtems-style` command is used. I uses 5 flags:
-* -c, --check : Checks for style issues and prints out a report
-* -r, --reformat : reformate code in a given file or directory
-*  -p, --path : path in which to check or reformat code
-*  -v, --verbose : prints output during style checking but in more detail
-*  -i, --ignore : file(s) to be ignoed when checking for style issues
+* `-c`, `--check` : Checks for style issues and prints out a report
+* `-r`, `--reformat` : reformate code in a given file or directory
+*  `-p`, `--path` : path in which to check or reformat code
+*  `-v`, `--verbose` : prints output during style checking but in more detail
+*  `-i`, `--ignore` : file(s) to be ignoed when checking for style issues
 #### Code submitted
 * Tool for style checking and code formatting(rtmes-style): [here](https://github.com/Idadelveloper/rtems-tools/commit/9960110e06559a9881d9a36b2fd0f962b4554ae5)
 * Added git diff to rtems-tools/rtemstoolkit/git.py: [here](https://github.com/Idadelveloper/rtems-tools/commit/d20d04deba83aa9ca6778959b7f94eb399de3651)
@@ -54,7 +54,7 @@ I started working on the standalone tool in rtems-tools.git that can be used to 
 
 ### TODOS
 * Update the rtems-style code.
-* Wricte documentation for rtems-style.
+* Write documentation for rtems-style.
 * Update the pre-commit hook script  be compatible with other hosts like Windows and FreeBSD.
 
 
