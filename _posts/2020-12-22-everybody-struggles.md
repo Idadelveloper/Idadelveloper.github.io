@@ -4,6 +4,8 @@ title: "Everybody Struggles"
 date: 2020-12-22
 image: /assets/images/career.jpeg
 category: "Career"
+target: https://idadelveloper.com/blog/outreachy-everybody-struggles
+redirect_to: https://idadelveloper.com/blog/outreachy-everybody-struggles
 ---
 
 

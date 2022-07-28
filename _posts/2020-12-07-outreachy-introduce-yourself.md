@@ -4,6 +4,8 @@ title: "Outreachy - Introduce Yourself"
 date: 2020-12-07
 image: /assets/images/outreachy.png
 category: "Personal"
+target: https://idadelveloper.com/blog/outreachy-introduce-yourself
+redirect_to: https://idadelveloper.com/blog/outreachy-introduce-yourself
 ---
 
 # Who am I?

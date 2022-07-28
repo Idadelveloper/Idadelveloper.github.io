@@ -4,6 +4,8 @@ title: "Halfway Through Outreachy"
 date: 2021-01-20
 image: /assets/images/struggle.jpeg
 category: "Internship"
+target: https://idadelveloper.com/blog/halfway-through-outreachy
+redirect_to: https://idadelveloper.com/blog/halfway-through-outreachy
 ---
 
 <div class="text-center">

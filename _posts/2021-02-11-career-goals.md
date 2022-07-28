@@ -4,6 +4,8 @@ title: "Career Goals"
 date: 2021-02-11
 image: /assets/images/yocto.png
 category: "Internship"
+target: https://idadelveloper.com/blog/outreachy-career-goals
+redirect_to: https://idadelveloper.com/blog/outreachy-career-goals
 ---
 
 <div class="text-center">

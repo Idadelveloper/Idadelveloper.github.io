@@ -4,6 +4,8 @@ title: "What Is The Yocto Project?"
 date: 2021-01-11
 image: /assets/images/career.jpeg
 category: "Internship"
+target: https://idadelveloper.com/blog/outreachy-my-audience
+redirect_to: https://idadelveloper.com/blog/outreachy-my-audience
 ---
 
 <div class="text-center">

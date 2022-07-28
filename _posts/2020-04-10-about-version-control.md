@@ -4,6 +4,8 @@ title: "My Small Guide About VERSION CONTROL"
 date: 2020-04-10
 image: /assets/images/outreachyy.png
 category: "Dev Ops"
+target: https://idadelveloper.com/blog/my-small-guide-about-version-control
+redirect_to: https://idadelveloper.com/blog/my-small-guide-about-version-control
 ---
 
 # What is Version Control?

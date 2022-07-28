@@ -4,6 +4,8 @@ title: "GSoC 2021 with RTEMS: Final Report"
 date: 2021-08-20
 image: /assets/images/rtems.png
 category: "Internship"
+target: https://idadelveloper.com/blog/gsoc-2021-with-rtems-final-report
+redirect_to: https://idadelveloper.com/blog/gsoc-2021-with-rtems-final-report
 ---
 
 

@@ -4,6 +4,8 @@ title: "How I got the Google Summer of Code(GSoC) Internship"
 date: 2021-05-18
 image: /assets/images/gsoc.png
 category: "Internship"
+target: https://idadelveloper.com/blog/how-i-got-the-google-summer-of-codegsoc-internship
+redirect_to: https://idadelveloper.com/blog/how-i-got-the-google-summer-of-codegsoc-internship
 ---
 
 <div class="text-center">

@@ -5,6 +5,8 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Ida Delphine's Blog</title>
+	<meta http-equiv="refresh" content="0;url=https://idadelveloper.com/blog" />
+    <link rel="canonical" href="https://idadelveloper.com/blog" />
 	<link href="http://Idadelveloper.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://Idadelveloper.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
